@@ -10,7 +10,7 @@ export default function NavBar() {
         <a
           onClick={() => navigate("/contact")}
           className="whitespace-nowrap cursor-pointer">Contact</a>
-        <a onClick={() => navigate("/lession")} className="whitespace-nowrap cursor-pointer">Lessions</a>
+        <a onClick={() => navigate("/lesson")} className="whitespace-nowrap cursor-pointer">Lessions</a>
         <a onClick={() => navigate("/galary")} className="whitespace-nowrap cursor-pointer">Galary</a>
       </nav>
     </header>)

@@ -8,8 +8,8 @@ import bgPhoto from "../data/photos/logo1.jpeg"
 export default function HomeDashboard() {
   return (
     <div
-      style={{backgroundImage:bgPhoto}}
-      className="bg-black text-white flex flex-col justify-center items-center bg-cover bg-center h-screen"
+      style={{backgroundImage: `url(${bgPhoto})`}}
+      className=" bg-gray-500 text-white bg-blend-difference flex flex-col justify-center items-center bg-cover bg-center h-screen"
     >
       
       <h1 className="text-6xl font-bold text-center">Welcome To</h1>

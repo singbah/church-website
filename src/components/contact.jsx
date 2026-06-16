@@ -33,7 +33,9 @@ export default function ContactSection() {
           className="border rounded-2xl h-50 p-2 text-md"
           placeholder="leave a comment"
           name="textArea"></textarea>
-        <button className="bg-blue-600 m-4 text-2xl font-bold text-white rounded-xl shadow-xl">submit</button>
+        <a
+          href="mailto:singbahjohn@gmail.com?subject=hello there&body=I want to study with you"
+          className="bg-blue-600 m-4 text-2xl font-bold text-white rounded-xl shadow-xl text-center uppercase">submit</a>
       </form>
     </section>
 

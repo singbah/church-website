@@ -1,7 +1,5 @@
 import { HiH3 } from "react-icons/hi2"
-import boyPhoto from "../data/photos/boy.jpg"
-import moonPhoto from "../data/photos/moon.jpg"
-import pathPhoto from "../data/photos/path.jpg"
+
 import womanPhoto from "../data/photos/woman.png"
 
 export default function Galary() {

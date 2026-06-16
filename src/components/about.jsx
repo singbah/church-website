@@ -9,19 +9,9 @@ export default function AboutUs() {
     <div className="p-4 lg:mx-40 lg:border overflow-y-auto">
     
     <h1 className="text-center p-4 font-extrabold text-2xl">About Bible Study with Pst. Davidson SM Morris</h1>
-    <p className={pStyle}>Brief history</p>
-
-    <h3 className={h3Style}>Our Story</h3>
-    <p className={pStyle}>Story about your mission goes here</p>
-    
-    <h3 className={h3Style}>Mission</h3>
-    <p className={pStyle}>mission statement</p>
-
-    <h3 className={h3Style}>Our Community  </h3>
-    <p className={pStyle}>Meat our leaders</p>
-
-    <h3 className={h3Style}>Our Promise  </h3>
-    <p className={pStyle}>this is our promise </p>
+        <p className={pStyle}>
+          Pastor Davidson SM. Morris is a passionate teacher, social media content creator and public adbocate devoted to sharing the Love of Jesus christ through his program.
+    </p>
   </div>
   </div>)
 }
