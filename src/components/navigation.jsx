@@ -5,8 +5,8 @@ export default function NavBar() {
         <a href="/" className="">Home</a>
         <a href="/about-us">About Us</a>
         <a href="/contact">Contact</a>
-        <a href="/">Lessions</a>
-        <a href="/">Galary</a>
+        <a href="/lession">Lessions</a>
+        <a href="/galary">Galary</a>
       </nav>
     </header>)
 }
