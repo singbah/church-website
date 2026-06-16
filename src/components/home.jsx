@@ -2,14 +2,14 @@ import { FaFacebookF, FaPhone, FaWhatsapp } from "react-icons/fa";
 import { FaFaceAngry, FaX } from "react-icons/fa6";
 
 import NavBar from "./navigation";
-import bgPhoto from "../data/photos/logo.jpg"
+import bgPhoto from "../data/photos/logo1.jpeg"
 
 
 export default function HomeDashboard() {
   return (
     <div
       style={{backgroundImage:bgPhoto}}
-      className="bg-gray-500 bg-blend-multiply text-white flex flex-col justify-center items-center bg-cover bg-center h-screen"
+      className="bg-black text-white flex flex-col justify-center items-center bg-cover bg-center h-screen"
     >
       
       <h1 className="text-6xl font-bold text-center">Welcome To</h1>
