@@ -5,11 +5,13 @@ export default function NavBar() {
   return (
     <header className="flex justify-center items-center sticky top-0 bg-black">
       <nav className="flex justify-start gap-6 overflow-x-auto text-white p-4">
-        <a href="/" className="">Home</a>
-        <a href="/about-us">About Us</a>
-        <a href="/contact">Contact</a>
-        <a href="/lession">Lessions</a>
-        <a href="/galary">Galary</a>
+        <a onClick={() => navigate("/")} className="">Home</a>
+        <a onClick={() => navigate("/about-us")} className="whitespace-nowrap cursor-pointer">About Us</a>
+        <a
+          onClick={() => navigate("/contact")}
+          className="whitespace-nowrap cursor-pointer">Contact</a>
+        <a onClick={() => navigate("/lession")} className="whitespace-nowrap cursor-pointer">Lessions</a>
+        <a onClick={() => navigate("/galary")} className="whitespace-nowrap cursor-pointer">Galary</a>
       </nav>
     </header>)
 }
